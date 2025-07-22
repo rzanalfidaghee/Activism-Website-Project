@@ -2,22 +2,125 @@
 * { /* Reset the space of the webpage */
    margin: 0px;
    padding: 0px;
+   text-align: center;
 }
 
 body {
- background-color: lightcyan; 
+ background-color: #402626; 
 }
 
 /* STYLE TEXT */
-
 h1 {
-  color: navy;
+  color: #328166;
+   font-size: 150px;
+   text-decoration: underline wavy #dbbdbd 14px;
+   
+   margin-top: 15px;
+   padding: 10px;
 }
 
-/* STYLE IMAGES */
+.intro{
+   font-size: 40px;
+   color: #dbbdbd;
+   line-height: 1.2em;
+   
+   margin-right: 40px;
+   margin-left: 40px;
+   margin-top: 20px;
+}
+
+#fact{
+   border-style: none;
+
+   padding: 15px;
+
+   margin-top: 30px;
+   margin-left: 15%;
+   margin-right: 15%;
+
+   font-size: 2em;
+   line-height: 1.2dm;
+   color: green;
+   
+}
+
+.subtitle1{
+   color: #dbbdbd;
+   font-size: 30px;
+}
+
+/* STYLE IMAGES; row of images with media queries */ 
+.flex-container{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   padding: 20px;
+}
+
+.flex-item{
+   flex-basis: 100%;
+   margin: 1%;
+   padding: 2.5%;
+}
+
+img{
+   width: 100%;
+   height: 100%;
+   border-radius: 20%;
+   border: 12px solid #328166;
+}
+
+@media screen and (max-width:850px){
+   .flex-container{
+      flex-wrap: wrap;
+   }
+}
 
 /* STYLE NAV BAR */
+ul{
+   list-style-type: none;
+   background-color: #dbbdbd;
+   overflow: hidden;
+   padding: 1em;
+   text-align: right;
+}
+li{
+  display: inline;
+}
+li a{
+   text-decoration: none;
+   color: #402626;
+   font-size: 17px;
+   padding: 1em;
+}
+li a:hover{
+  background-color: #328166
+}
 
 /* STYLE BUTTONS */
+.factGen{
+   background: white;
+   border-radius: 10px;
+   border-style: none;
+
+   padding: 15px;
+
+   margin-top: 30px;
+   margin-left: 35%;
+   margin-right: 35%;
+
+   font-size: 0.9em:
+   line-height: 1.2em;
+   color: purple;
+}
+
+#button{
+   padding: 10px;
+
+   border-radius: 10px;
+
+   font-size: 2em;
+   line-height: 1.2em;
+}
 
 /* ADD MORE! */
