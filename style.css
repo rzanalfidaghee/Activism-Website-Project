@@ -19,8 +19,12 @@ h1 {
    padding: 10px;
 }
 
+#secondTitle{
+   font-size: 100px;
+}
+
 .intro{
-   font-size: 40px;
+   font-size: 35px;
    color: #dbbdbd;
    line-height: 1.2em;
    
@@ -29,24 +33,56 @@ h1 {
    margin-top: 20px;
 }
 
+.subtitle1{
+   color: #dbbdbd;
+   font-size: 30px;
+   font-style: italic;
+}
+
+.subtitle2{
+   color: #328166;
+   font-size: 15px;
+   font-style: italic;
+}
+
+main{
+   font-size: 35px;
+   color: #dbbdbd;
+   padding: 45px;
+}
+
+#takeAction{
+   font-size: 30px;
+   color:  #328166;
+   padding: 45px;
+}
+
+h2{
+  font-size: 70px;
+   color:#dbbdbd;
+   margin-top: 30px;
+   text-decoration: underline wavy #328166 5px;
+   
+}
+
+#truthIntro{
+   font-size: 30px;
+   color:#dbbdbd;
+   padding: 10px;
+}
+
 #fact{
    border-style: none;
+   background-color: #dbbdbd;
 
    padding: 15px;
 
    margin-top: 30px;
-   margin-left: 15%;
-   margin-right: 15%;
+   margin-bottom: 40px;
 
    font-size: 2em;
    line-height: 1.2dm;
-   color: green;
-   
-}
-
-.subtitle1{
-   color: #dbbdbd;
-   font-size: 30px;
+   color: #328166;
 }
 
 /* STYLE IMAGES; row of images with media queries */ 
@@ -99,7 +135,7 @@ li a:hover{
 
 /* STYLE BUTTONS */
 .factGen{
-   background: white;
+   background: #328166;
    border-radius: 10px;
    border-style: none;
 
@@ -111,16 +147,18 @@ li a:hover{
 
    font-size: 0.9em:
    line-height: 1.2em;
-   color: purple;
 }
 
 #button{
-   padding: 10px;
+   padding: 15px;
 
    border-radius: 10px;
 
    font-size: 2em;
    line-height: 1.2em;
+   color: #328166;
+   background-color: #dbbdbd;
+   font-family: sans;
 }
 
 /* ADD MORE! */
